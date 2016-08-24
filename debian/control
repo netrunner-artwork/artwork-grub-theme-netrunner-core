@@ -1,0 +1,14 @@
+Source: artwork-grub-netrunner-core
+Section: admin
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.2
+
+Package: artwork-grub-netrunner-core
+Architecture: all
+Replaces: netrunner-system (<< 1.1.4)
+Breaks: netrunner-system (<< 1.1.4)
+Depends: grub2-common
+Description: Grub artwork
+  This package provides the grub artwork for Netrunner.
